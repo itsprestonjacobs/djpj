@@ -1,9 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Logo Tee placeholder">
-  <rect width="400" height="400" fill="#0d0d0d"/>
-  <path d="M140 120 L170 100 L230 100 L260 120 L290 150 L265 175 L250 160 L250 300 L150 300 L150 160 L135 175 L110 150 Z"
-        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
-  <text x="200" y="225" font-family="Anton, sans-serif" font-size="40"
-        fill="#f2f2f2" text-anchor="middle" letter-spacing="2">DJPJ</text>
-  <text x="200" y="362" font-family="monospace" font-size="13"
-        fill="#777" text-anchor="middle" letter-spacing="1">LOGO TEE — REPLACE PHOTO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="DJPJ logo tee">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#202024"/>
+      <stop offset="55%" stop-color="#121214"/>
+      <stop offset="100%" stop-color="#080809"/>
+    </radialGradient>
+    <linearGradient id="fab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f2f0"/>
+      <stop offset="55%" stop-color="#dcdcda"/>
+      <stop offset="100%" stop-color="#c4c4c2"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.16"/>
+      <stop offset="0.18" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.82" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="540" rx="170" ry="26" fill="#000" opacity="0.45"/>
+
+  <!-- shirt body + sleeves -->
+  <path d="M232 132 L196 150 L150 210 L186 252 L214 232 L214 500 Q300 516 386 500 L386 232 L414 252 L450 210 L404 150 L368 132
+           Q334 168 232 132 Z" fill="url(#fab)"/>
+  <!-- collar -->
+  <path d="M252 134 Q300 176 348 134 L334 128 Q300 156 266 128 Z" fill="#bcbcba"/>
+  <path d="M256 132 Q300 170 344 132" fill="none" stroke="#a9a9a7" stroke-width="3"/>
+  <!-- fabric folds -->
+  <path d="M240 250 Q250 360 244 470" fill="none" stroke="#000" stroke-width="2" opacity="0.06"/>
+  <path d="M360 250 Q352 360 358 470" fill="none" stroke="#000" stroke-width="2" opacity="0.06"/>
+  <path d="M214 240 L186 252" stroke="#000" stroke-width="2" opacity="0.05"/>
+  <rect x="214" y="132" width="172" height="384" fill="url(#shade)"/>
+
+  <!-- print -->
+  <text x="300" y="330" font-family="Anton, sans-serif" font-size="64" fill="#111" text-anchor="middle" letter-spacing="3">DJPJ</text>
+  <rect x="248" y="346" width="104" height="3" fill="#111"/>
+  <text x="300" y="372" font-family="monospace" font-size="13" fill="#333" text-anchor="middle" letter-spacing="4">PRODUCER · DJ</text>
+
+  <text x="300" y="582" font-family="monospace" font-size="12" fill="#5a5a5a" text-anchor="middle" letter-spacing="2">LOGO TEE — REPLACE WITH PHOTO</text>
 </svg>

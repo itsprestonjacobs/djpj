@@ -1,9 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Hoodie placeholder">
-  <rect width="400" height="400" fill="#111"/>
-  <path d="M150 110 Q200 90 250 110 L290 150 L268 175 L255 162 L255 305 L145 305 L145 162 L132 175 L110 150 Z"
-        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M175 110 Q200 150 225 110" fill="none" stroke="#f2f2f2" stroke-width="3"/>
-  <rect x="185" y="178" width="30" height="55" fill="none" stroke="#777" stroke-width="2"/>
-  <text x="200" y="362" font-family="monospace" font-size="13"
-        fill="#777" text-anchor="middle" letter-spacing="1">HOODIE — REPLACE PHOTO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="DJPJ logo hoodie">
+  <defs>
+    <radialGradient id="bgh" cx="50%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#202024"/>
+      <stop offset="55%" stop-color="#121214"/>
+      <stop offset="100%" stop-color="#080809"/>
+    </radialGradient>
+    <linearGradient id="fabh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2c30"/>
+      <stop offset="55%" stop-color="#1c1c1f"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+    <linearGradient id="hood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#37373b"/>
+      <stop offset="100%" stop-color="#202023"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgh)"/>
+  <ellipse cx="300" cy="544" rx="180" ry="26" fill="#000" opacity="0.45"/>
+
+  <!-- body + sleeves -->
+  <path d="M214 150 L150 196 L188 248 L214 230 L210 506 Q300 522 390 506 L386 230 L412 248 L450 196 L386 150
+           Q300 196 214 150 Z" fill="url(#fabh)"/>
+  <!-- hood -->
+  <path d="M238 132 Q300 92 362 132 Q352 178 300 188 Q248 178 238 132 Z" fill="url(#hood)"/>
+  <path d="M256 140 Q300 172 344 140" fill="none" stroke="#000" stroke-width="3" opacity="0.4"/>
+  <!-- pocket -->
+  <path d="M236 372 L364 372 L350 446 L250 446 Z" fill="none" stroke="#000" stroke-width="3" opacity="0.4"/>
+  <!-- drawstrings -->
+  <line x1="288" y1="180" x2="284" y2="250" stroke="#d8d8d8" stroke-width="4"/>
+  <line x1="312" y1="180" x2="316" y2="250" stroke="#d8d8d8" stroke-width="4"/>
+  <!-- folds -->
+  <path d="M236 250 Q246 360 240 486" fill="none" stroke="#000" stroke-width="2" opacity="0.25"/>
+  <path d="M364 250 Q354 360 360 486" fill="none" stroke="#000" stroke-width="2" opacity="0.25"/>
+  <!-- print -->
+  <text x="300" y="330" font-family="Anton, sans-serif" font-size="58" fill="#f2f2f0" text-anchor="middle" letter-spacing="3">DJPJ</text>
+  <rect x="252" y="345" width="96" height="3" fill="#f2f2f0"/>
+
+  <text x="300" y="586" font-family="monospace" font-size="12" fill="#5a5a5a" text-anchor="middle" letter-spacing="2">HOODIE — REPLACE WITH PHOTO</text>
 </svg>

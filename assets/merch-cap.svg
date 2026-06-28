@@ -1,11 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cap placeholder">
-  <rect width="400" height="400" fill="#0d0d0d"/>
-  <path d="M110 230 Q120 140 200 140 Q280 140 290 215 L290 230 Z"
-        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M110 230 L70 245 Q150 265 290 235 L290 230 Z"
-        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
-  <text x="200" y="200" font-family="Anton, sans-serif" font-size="26"
-        fill="#f2f2f2" text-anchor="middle" letter-spacing="1">DJPJ</text>
-  <text x="200" y="362" font-family="monospace" font-size="13"
-        fill="#777" text-anchor="middle" letter-spacing="1">CAP — REPLACE PHOTO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="DJPJ snapback cap">
+  <defs>
+    <radialGradient id="bgc" cx="50%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#202024"/>
+      <stop offset="55%" stop-color="#121214"/>
+      <stop offset="100%" stop-color="#080809"/>
+    </radialGradient>
+    <linearGradient id="crown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34343a"/>
+      <stop offset="60%" stop-color="#1d1d21"/>
+      <stop offset="100%" stop-color="#141417"/>
+    </linearGradient>
+    <linearGradient id="brim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#24242a"/>
+      <stop offset="100%" stop-color="#0e0e11"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgc)"/>
+  <ellipse cx="300" cy="430" rx="180" ry="24" fill="#000" opacity="0.45"/>
+
+  <!-- crown -->
+  <path d="M150 320 Q160 180 300 178 Q440 180 450 320 Q300 352 150 320 Z" fill="url(#crown)"/>
+  <!-- panel seams -->
+  <path d="M300 178 L300 332" stroke="#000" stroke-width="2" opacity="0.35"/>
+  <path d="M226 188 Q236 270 246 330" stroke="#000" stroke-width="2" opacity="0.25" fill="none"/>
+  <path d="M374 188 Q364 270 354 330" stroke="#000" stroke-width="2" opacity="0.25" fill="none"/>
+  <!-- button -->
+  <circle cx="300" cy="182" r="9" fill="#2a2a30"/>
+  <!-- brim -->
+  <path d="M150 320 Q300 358 450 320 Q470 360 410 384 Q300 410 190 384 Q130 360 150 320 Z" fill="url(#brim)"/>
+  <path d="M150 320 Q300 356 450 320" fill="none" stroke="#000" stroke-width="3" opacity="0.4"/>
+  <!-- embroidery -->
+  <text x="300" y="276" font-family="Anton, sans-serif" font-size="50" fill="#f2f2f0" text-anchor="middle" letter-spacing="3">DJPJ</text>
+
+  <text x="300" y="470" font-family="monospace" font-size="12" fill="#5a5a5a" text-anchor="middle" letter-spacing="2">CAP — REPLACE WITH PHOTO</text>
 </svg>
