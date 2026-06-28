@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="DJPJ portrait placeholder">
+  <rect width="400" height="500" fill="#111"/>
+  <circle cx="200" cy="190" r="70" fill="none" stroke="#f2f2f2" stroke-width="3"/>
+  <path d="M110 360 Q200 270 290 360 L290 410 L110 410 Z" fill="none" stroke="#f2f2f2" stroke-width="3"/>
+  <text x="200" y="462" font-family="Anton, sans-serif" font-size="34"
+        fill="#f2f2f2" text-anchor="middle" letter-spacing="2">DJPJ</text>
+  <text x="200" y="488" font-family="monospace" font-size="13"
+        fill="#777" text-anchor="middle" letter-spacing="1">ADD YOUR PHOTO HERE</text>
+</svg>

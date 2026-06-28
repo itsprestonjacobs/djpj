@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cap placeholder">
+  <rect width="400" height="400" fill="#0d0d0d"/>
+  <path d="M110 230 Q120 140 200 140 Q280 140 290 215 L290 230 Z"
+        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M110 230 L70 245 Q150 265 290 235 L290 230 Z"
+        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
+  <text x="200" y="200" font-family="Anton, sans-serif" font-size="26"
+        fill="#f2f2f2" text-anchor="middle" letter-spacing="1">DJPJ</text>
+  <text x="200" y="362" font-family="monospace" font-size="13"
+        fill="#777" text-anchor="middle" letter-spacing="1">CAP — REPLACE PHOTO</text>
+</svg>

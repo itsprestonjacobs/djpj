@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Logo Tee placeholder">
+  <rect width="400" height="400" fill="#0d0d0d"/>
+  <path d="M140 120 L170 100 L230 100 L260 120 L290 150 L265 175 L250 160 L250 300 L150 300 L150 160 L135 175 L110 150 Z"
+        fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linejoin="round"/>
+  <text x="200" y="225" font-family="Anton, sans-serif" font-size="40"
+        fill="#f2f2f2" text-anchor="middle" letter-spacing="2">DJPJ</text>
+  <text x="200" y="362" font-family="monospace" font-size="13"
+        fill="#777" text-anchor="middle" letter-spacing="1">LOGO TEE — REPLACE PHOTO</text>
+</svg>
